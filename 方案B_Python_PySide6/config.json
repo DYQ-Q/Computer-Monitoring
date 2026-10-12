@@ -1,0 +1,16 @@
+{
+  "interval_ms": 1000,
+  "history_len": 120,
+  "memory_alert_threshold": 85.0,
+  "memory_alert_hold_seconds": 10,
+  "memory_alert_cooldown_seconds": 300,
+  "cpu_alert_threshold": 0,
+  "disk_alert_min_gb": 10.0,
+  "disk_alert_cooldown_seconds": 3600,
+  "overlay_x": 1,
+  "overlay_y": 670,
+  "compact": true,
+  "click_through": false,
+  "show_overlay": true,
+  "bg_opacity": 0.8
+}
