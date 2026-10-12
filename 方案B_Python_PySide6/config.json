@@ -7,13 +7,13 @@
   "cpu_alert_threshold": 0,
   "disk_alert_min_gb": 10.0,
   "disk_alert_cooldown_seconds": 3600,
-  "overlay_x": 1153,
-  "overlay_y": 125,
-  "compact": false,
+  "overlay_x": 1198,
+  "overlay_y": 135,
+  "compact": true,
   "click_through": false,
   "show_overlay": true,
   "bg_opacity": 1.0,
   "diskwatch_enabled": true,
-  "diskwatch_interval_hours": 6,
+  "diskwatch_interval_hours": 2,
   "diskwatch_deep_scan": false
 }
