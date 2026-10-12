@@ -62,6 +62,11 @@ def main() -> int:
     monitor = SystemMonitor(cfg)
     overlay = OverlayWindow(cfg)
 
+    # ---- 接线：采样 -> 悬浮窗；告警 -> Toast ----
+    # （v0.2 重构时这两行曾被漏掉，导致悬浮窗全部显示 0、告警失效，别再删）
+    monitor.sampled.connect(overlay.update_data)
+    monitor.alert.connect(show_toast)
+
     def toggle_overlay():
         if overlay.isVisible():
             overlay.hide()
